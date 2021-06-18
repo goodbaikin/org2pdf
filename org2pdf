@@ -1,0 +1,2 @@
+#!/bin/bash
+emacs --batch --load=/root/.emacs.d/init.el --file=$1 --eval '(org-latex-export-to-pdf)'
