@@ -11,7 +11,7 @@
 
 (require 'ox-latex)
 (require 'ox-bibtex)
-(setq pub-dir "/tmp/org-mode.tmp")
+(setq pub-dir "./org-mode.tmp")
 (setq org-latex-pdf-process
   (list (format "platex -output-directory=%s %%f" pub-dir)
         (format "platex -output-directory=%s %%f" pub-dir)
